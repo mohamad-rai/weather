@@ -1,0 +1,117 @@
+*{
+    color: #ecf0f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body:before{
+    filter: grayscale(100%);
+}
+body{
+    background-color: black;
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.country{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(30, 39, 46, 0.6);
+    padding: 10px 5px;
+}
+select{
+    width: 50%;
+    margin: auto;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    direction: rtl;
+}
+option{
+    color: black;
+    padding: 5px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 5% 35px 0 35px;
+}
+.weather{
+    text-align: center;
+}
+.weather-icon{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.weather-icon img{
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+span{
+    display: block;
+    margin: 10px 0;
+}
+.temp{
+    font-size: 40px;
+}
+.title{
+    margin-bottom: 25px;
+}
+.country-info{
+    width: fit-content;
+    text-align: right;
+    float: right;
+}
+.country-name{
+    font-size: 40px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.info-value{
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+.info-title{
+    color: #f6e58d;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.map-flag{
+    width: 50%;
+    height: 250px;
+    display: none;
+    opacity: 0.3;
+    padding-top: 100px;
+}
+.map-flag:hover{opacity: 1}
+.flag{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#flag{width: 100px}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2c3e50;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #34495e;
+}
